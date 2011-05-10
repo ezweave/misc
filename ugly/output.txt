@@ -1,0 +1,37 @@
+INFO: Wrote the file!
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 1th favorite is : null
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 2th favorite is : SAND
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 3th favorite is : PURPLE
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 4th favorite is : WHITE
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 5th favorite is : OFF_WHITE
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 6th favorite is : TAUPE
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 7th favorite is : null
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 8th favorite is : SILVER
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 9th favorite is : MIST
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 10th favorite is : MAGENTA
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 11th favorite is : GREEN
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 12th favorite is : BLACK
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 13th favorite is : RED
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 14th favorite is : null
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 15th favorite is : null
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 16th favorite is : null
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 17th favorite is : null
+May 10, 2011 10:39:01 AM malmal.Mal main
+INFO: 18th favorite is : PINK

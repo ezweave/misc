@@ -36,6 +36,13 @@ public class Mal {
     MIST
   }
 
+  public static void main(String[] args) {
+    int i = 1;
+    for(Color color : getRandomFavoriteColors()) {
+     log.info("" + i++ + "th favorite is : " + color);
+    }  
+  }
+
   public static Color[] getRandomFavoriteColors() {
 
     Color[] colors = new Color[Color.values().length];
