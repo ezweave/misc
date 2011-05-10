@@ -42,26 +42,26 @@ public class Mal {
 
     for (int i = 0; i < colors.length; i++) {
 
-      boolean notFound = true;
+      boolean matchFound = true;
 
-      while (notFound) {
+      while (matchFound) {
         Random dum = new Random();
         int order = dum.nextInt(Color.values().length);
 
         Color aColor = Color.values()[i];
 
-        notFound = false;
+        matchFound = false;
         
         for (int j = 0; j < colors.length; j++) {
           Color anotherColor = colors[j];
 
           if (anotherColor == aColor) {
-            notFound = true;
+            matchFound = true;
             break;
           } 
         }
 
-        if(notFound) {
+        if(!matchFound) {
           colors[order] = aColor;
         }
       }
