@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C346A69214E9BD84005924E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C346A69114E9BD84005924E8 /* Foundation.framework */; };
+		C346A69514E9BD84005924E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C346A69414E9BD84005924E8 /* main.m */; };
+		C346A69914E9BD84005924E8 /* JunkBird.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C346A69814E9BD84005924E8 /* JunkBird.1 */; };
+		C346A6A114E9BDAE005924E8 /* Junk.m in Sources */ = {isa = PBXBuildFile; fileRef = C346A6A014E9BDAE005924E8 /* Junk.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C346A68B14E9BD84005924E8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C346A69914E9BD84005924E8 /* JunkBird.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C346A68D14E9BD84005924E8 /* JunkBird */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JunkBird; sourceTree = BUILT_PRODUCTS_DIR; };
+		C346A69114E9BD84005924E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C346A69414E9BD84005924E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C346A69714E9BD84005924E8 /* JunkBird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JunkBird-Prefix.pch"; sourceTree = "<group>"; };
+		C346A69814E9BD84005924E8 /* JunkBird.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = JunkBird.1; sourceTree = "<group>"; };
+		C346A69F14E9BDAE005924E8 /* Junk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Junk.h; sourceTree = "<group>"; };
+		C346A6A014E9BDAE005924E8 /* Junk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Junk.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C346A68A14E9BD84005924E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C346A69214E9BD84005924E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C346A68214E9BD84005924E8 = {
+			isa = PBXGroup;
+			children = (
+				C346A69314E9BD84005924E8 /* JunkBird */,
+				C346A69014E9BD84005924E8 /* Frameworks */,
+				C346A68E14E9BD84005924E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C346A68E14E9BD84005924E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C346A68D14E9BD84005924E8 /* JunkBird */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C346A69014E9BD84005924E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C346A69114E9BD84005924E8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C346A69314E9BD84005924E8 /* JunkBird */ = {
+			isa = PBXGroup;
+			children = (
+				C346A69414E9BD84005924E8 /* main.m */,
+				C346A69814E9BD84005924E8 /* JunkBird.1 */,
+				C346A69614E9BD84005924E8 /* Supporting Files */,
+				C346A69F14E9BDAE005924E8 /* Junk.h */,
+				C346A6A014E9BDAE005924E8 /* Junk.m */,
+			);
+			path = JunkBird;
+			sourceTree = "<group>";
+		};
+		C346A69614E9BD84005924E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C346A69714E9BD84005924E8 /* JunkBird-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C346A68C14E9BD84005924E8 /* JunkBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C346A69C14E9BD84005924E8 /* Build configuration list for PBXNativeTarget "JunkBird" */;
+			buildPhases = (
+				C346A68914E9BD84005924E8 /* Sources */,
+				C346A68A14E9BD84005924E8 /* Frameworks */,
+				C346A68B14E9BD84005924E8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JunkBird;
+			productName = JunkBird;
+			productReference = C346A68D14E9BD84005924E8 /* JunkBird */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C346A68414E9BD84005924E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C346A68714E9BD84005924E8 /* Build configuration list for PBXProject "JunkBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C346A68214E9BD84005924E8;
+			productRefGroup = C346A68E14E9BD84005924E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C346A68C14E9BD84005924E8 /* JunkBird */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C346A68914E9BD84005924E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C346A69514E9BD84005924E8 /* main.m in Sources */,
+				C346A6A114E9BDAE005924E8 /* Junk.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C346A69A14E9BD84005924E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C346A69B14E9BD84005924E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C346A69D14E9BD84005924E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JunkBird/JunkBird-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C346A69E14E9BD84005924E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JunkBird/JunkBird-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C346A68714E9BD84005924E8 /* Build configuration list for PBXProject "JunkBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C346A69A14E9BD84005924E8 /* Debug */,
+				C346A69B14E9BD84005924E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C346A69C14E9BD84005924E8 /* Build configuration list for PBXNativeTarget "JunkBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C346A69D14E9BD84005924E8 /* Debug */,
+				C346A69E14E9BD84005924E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C346A68414E9BD84005924E8 /* Project object */;
+}
