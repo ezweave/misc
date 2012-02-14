@@ -73,8 +73,19 @@ NSString* MY_MESSAGES = @"MY_MESSAGES";
                                              selector:@selector(processNotification:) 
                                                  name:MY_MESSAGES 
                                                object:nil];
+    
+    myDatums = [[NSMutableDictionary alloc] init];
   }
   return self;
+}
+
+- (void) printMyDatums
+{
+  for(NSString *key in [myDatums allKeys])
+  {
+    Datum *datum = (Datum*)[myDatums objectForKey:key];
+    NSLog(@"Datum at %ld is: %@", [datum getMyCount], datum.name);
+  }
 }
 
 - (void) processNotification: (NSNotification*) notification
@@ -83,7 +94,7 @@ NSString* MY_MESSAGES = @"MY_MESSAGES";
   
   Datum *d = [Datum initWithName:aMessage andCount:self.count++];
   
-  [self.myDatums insertValue:d inPropertyWithKey:[NSString stringWithFormat:@"MESSAGE: %lu", self.count]];
+  [self.myDatums setObject: d forKey:[NSString stringWithFormat:@"MESSAGE: %lu", self.count]];
   
   NSLog(@"Added %@ with count of %lu", aMessage, self.count);
   
@@ -92,7 +103,7 @@ NSString* MY_MESSAGES = @"MY_MESSAGES";
 + (void) notifyMeAsynchronouslyWithMessage: (NSString*) message
 {
   NSNotification *myNotification = [NSNotification notificationWithName:MY_MESSAGES object:message];
-  [[NSNotificationQueue defaultQueue] enqueueNotification:myNotification postingStyle:NSPostASAP];
+  [[NSNotificationQueue defaultQueue] enqueueNotification:myNotification postingStyle:NSPostNow];
 }
 
 @end

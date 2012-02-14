@@ -13,7 +13,9 @@ extern NSString* MY_MESSAGES;
 @interface Junk : NSObject
 
 @property (nonatomic, copy) NSString* name;
-@property (nonatomic, retain) NSDictionary* myDatums;
+@property (nonatomic, retain) NSMutableDictionary* myDatums;
+
+- (void) printMyDatums;
 
 + (void) notifyMeAsynchronouslyWithMessage: (NSString*) message;
 
